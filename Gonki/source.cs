@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
 
@@ -13,17 +7,17 @@ namespace Gonki
 {
     // helper for manipulation to obj in diferent thread
     public delegate void CallHelper(Button btn);
-    public partial class Form1 : Form
+    public partial class source : Form
     {
         
-        Thread t1; // potok dlya dvizhenia pervoi knopki
-        Thread t2;// potok dlya dvizhenia vtoroi knopki
-        Thread t3;// potok dlya dvizhenia tret'ei knopki
+        Thread t1; // thread for first button moving 
+        Thread t2;// thread for second button moving 
+        Thread t3;// thread for third button moving 
 
         Random r;
         CallHelper helper;
         Button_Compare[] button;//buttons array
-        public Form1()
+        public source()
         {
             InitializeComponent();
             button = new Button_Compare[] {firstbutton, secondbutton, thirdbutton };
@@ -55,7 +49,7 @@ namespace Gonki
             t3.Start();
         }
         /// <summary>
-        /// определяет метод для движения кнопки, так же содержит метож Finish, который выявляет победителя
+        /// определяет метод для движения кнопки, так же содержит метод Finish
         /// </summary>
         /// <param name="button"></param>
         void Motion(Button button)
