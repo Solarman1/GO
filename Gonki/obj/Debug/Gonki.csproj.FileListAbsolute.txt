@@ -1,0 +1,9 @@
+G:\Arthur\C#\Gonki\Gonki\bin\Debug\Gonki.exe.config
+G:\Arthur\C#\Gonki\Gonki\bin\Debug\Gonki.exe
+G:\Arthur\C#\Gonki\Gonki\bin\Debug\Gonki.pdb
+G:\Arthur\C#\Gonki\Gonki\obj\Debug\Gonki.csprojResolveAssemblyReference.cache
+G:\Arthur\C#\Gonki\Gonki\obj\Debug\Gonki.Form1.resources
+G:\Arthur\C#\Gonki\Gonki\obj\Debug\Gonki.Properties.Resources.resources
+G:\Arthur\C#\Gonki\Gonki\obj\Debug\Gonki.csproj.GenerateResource.Cache
+G:\Arthur\C#\Gonki\Gonki\obj\Debug\Gonki.exe
+G:\Arthur\C#\Gonki\Gonki\obj\Debug\Gonki.pdb
