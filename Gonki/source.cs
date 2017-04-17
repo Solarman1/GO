@@ -11,7 +11,7 @@ namespace Gonki
     {
         
         Thread t1; // thread for first button moving 
-        Thread t2;// thread for second button moving 
+        Thread t2;// thread for second button moving greg
         Thread t3;// thread for third button moving 
 
         Random r;
